@@ -1,7 +1,7 @@
 import Keyboard 
 print("The list of keyword in python ")
 print(keyword.kwlist)
-# There are 35+ keword in python programming language 
+# There are 35 + keword in python programming language 
 # Python keword is identifier con't be use a variable name
 '''
 The list of keywords are: 
