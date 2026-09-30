@@ -12,7 +12,7 @@ if (Child <= 5) :
 else:
    print(" Greater Then 5 ")
 
-# Switch Statement
+# Switch (match ) Statement : It is similar to the switch statement bcz Switch is exist in other programming language
 
 age = int(input("Enter a age :- "))
 
