@@ -11,3 +11,20 @@ if (Child <= 5) :
 
 else:
    print(" Greater Then 5 ")
+
+# Switch Statement
+
+age = int(input("Enter a age :- "))
+
+match (age) :
+ case 18 :
+  print ("Age is 18")
+
+ case 12 :
+  print(" Not eligible for movies ")
+
+ case 50 :
+   print ("You'r alse watching in movies ")
+
+ case 0 :
+    print(" Nothing ")
