@@ -19,9 +19,23 @@ while (i <= 3):
     print()
 
     # print table in using in nested loop
+
     for i in range(1, 3):
      k = 1
     while (k <= 3):
         print(i, "*", k, "=", (i * k))
         k = k + 1
     print()
+
+# Control Statements :- using in pass, continue, and break for control the statement
+
+i = 1
+while (i < 5):
+     print(" Hello Python ") #It's not run so using in pass keyword in python
+pass
+
+for j in range(5):
+    pass
+
+if (i == 2):
+    pass
