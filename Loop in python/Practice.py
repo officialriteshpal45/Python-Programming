@@ -12,3 +12,15 @@ for i in range(1, rows + 1):
     spaces = " " * (rows - i)
     stars = "*" * (2 * i - 1)
     print(spaces + stars)
+
+# Condition Statement use 
+# Eligibility Criteria of Voting 
+age = int(input(" Enter your Age "))
+if ( age <= 15) :
+    print(" You'r Not eligible for vote ")
+elif( age >= 18):
+    print(" You Are Eligible for vote ")
+elif(age >= 50):
+    print(" Yur are also Eligible for voting ")
+else :
+    print(" Thank You ")
