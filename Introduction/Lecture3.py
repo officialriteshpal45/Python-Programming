@@ -1,6 +1,21 @@
 # Data type in python :- Data type is an attribute of data which tells the interpreter how the programmer intends to use the data
-# there are various data types in python like int, float, complex, string, list, tuple, set, dictionary etc
-# int is store whole number without decimal point
+# These data types are divided into two categories: mutable and immutable
+# 1. Mutable :- ist , dict , set , bytearra
+
+fruits = ["apple", "banana", "cherry"]
+print(id(fruits))  # Memory address before modification
+
+fruits.append("mango")  # Adding a new item
+print(fruits)
+print(id(fruits))  # Same memory address → same object
+
+# 2. Immutable :- int, float, complex, str, tuple, bool, bytes
+name = "Harry"
+print(id(name))  # Memory address before modification
+
+name = name + " Potter"  # Concatenating creates a new string
+print(name)
+print(id(name))  # Different memory address → new object created
 
 # There are three type of declared in string 
 Name = "Ritesh Pal" # Most declaring string in python 
