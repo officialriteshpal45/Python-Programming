@@ -5,3 +5,9 @@ python is an interpreted (Line by Line execution) language
 """
 #First Program
 print("Hello AI Era Developer ----")
+
+# This is a  Singal line comment 
+
+'''
+Multiline comment in python 
+'''
