@@ -14,5 +14,10 @@ def emp_data():
    return  Name , SSn_no , join_date , Salary , age , avg
 
 # call the function 
+
 print(emp_data())
+
+# 2. built-in functions
+# these are the built in function in python :- user can't be use in these are function python
+ # min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print()
 
