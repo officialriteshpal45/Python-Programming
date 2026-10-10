@@ -17,3 +17,17 @@ list1 = ["Red" , "Blue" ,"Green"]
 list2 = ["Yellow" , " Black" , " Sky "]
 list1.extend(list2)
 print(list1)
+
+# 4. add Tuple 
+# add a tuple to a list
+cars = ["Hyundai", "Tata", "Mahindra"]
+cars2 = ("Mercedes", "Volkswagen", "BMW")
+cars.extend(cars2)
+print(cars)
+
+# 5. add set into the list 
+# add a set to a list
+cars = ["Hyundai", "Tata", "Mahindra"]
+cars2 = {"Mercedes", "Volkswagen", "BMW"}
+cars.extend(cars2)
+print(cars)
