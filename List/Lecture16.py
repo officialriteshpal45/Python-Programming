@@ -24,3 +24,8 @@ colors = ["violet", "indigo", "blue", "green", "yellow"]
 colors.clear()
 print(colors)
 
+# change list item 
+names = ["keshav", "Puspa", "Mangal", " Jagga ", "SHEKHAWAT"]
+names[2] = "Millie"
+print(names)
+
