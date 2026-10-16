@@ -1,6 +1,6 @@
 # Data type in python :- Data type is an attribute of data which tells the interpreter how the programmer intends to use the data
 # These data types are divided into two categories: mutable and immutable
-# 1. Mutable :- ist , dict , set , bytearra
+# 1. Mutable :- list , dict , set , byte area
 
 fruits = ["apple", "banana", "cherry"]
 print(id(fruits))  # Memory address before modification
