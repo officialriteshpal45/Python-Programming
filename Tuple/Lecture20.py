@@ -16,3 +16,15 @@ print(country[0])
 print(country[-1])
 print(country[-3])
 print(country[-4]) 
+
+# Find the City in existing in tuple
+country = ("Spain", "Italy", "India", "England", "Germany")
+if "Germany" in country:
+    print("Germany is present.")
+else:
+    print("Germany is absent.")
+
+# Range in tuple
+animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
+print(animals[3:7])    
+print(animals[-7:-2])     
