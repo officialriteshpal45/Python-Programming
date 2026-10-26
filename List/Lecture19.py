@@ -40,3 +40,12 @@ Class10 = [
 
 for Class in Class10 :
     print(Class10)
+
+# Matrix representation using nested lists
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(matrix[1][2])       # Row 1, Column 2    
