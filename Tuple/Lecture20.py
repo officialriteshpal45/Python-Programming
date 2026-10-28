@@ -44,3 +44,10 @@ info = ("Ayush ", 20, "AKTU")
 print("Name:", name)
 print("Age:", age)
 print("Studies at:", university)
+
+# Example 2
+fauna = ("parrot", "cat", "dog", "horse", "pig", "salmon")
+(bird, *animals, fish) = fauna
+print("Animals:", animals)
+print("Bird:", bird)
+print("Fish:", fish)
