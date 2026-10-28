@@ -37,3 +37,10 @@ temp.pop(3)
 temp[2] = "Finland"         
 countries = tuple(temp)
 print(countries)
+
+# Unpack Tuples
+info = ("Ayush ", 20, "AKTU")
+(name, age, university) = info
+print("Name:", name)
+print("Age:", age)
+print("Studies at:", university)
