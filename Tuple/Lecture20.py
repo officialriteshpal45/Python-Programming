@@ -28,3 +28,12 @@ else:
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
 print(animals[3:7])    
 print(animals[-7:-2])     
+
+# Tuple Manipulating
+countries = ("Spain", "Italy", "India", "England", "Germany")
+temp = list(countries)
+temp.append("Russia")     
+temp.pop(3)                 
+temp[2] = "Finland"         
+countries = tuple(temp)
+print(countries)
