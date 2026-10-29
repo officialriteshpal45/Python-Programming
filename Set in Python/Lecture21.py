@@ -22,3 +22,14 @@ print(cities)
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities.remove("Seoul")
 print(cities)
+
+# pop() :-  include the element
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+item = cities.pop()
+print(cities)
+print(item)
+
+# del() :- Using for delete the element
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+del cities
+print(cities)
