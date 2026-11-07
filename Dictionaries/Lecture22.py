@@ -23,3 +23,17 @@ print(info.keys())
 # Accessing Key-Value Pairs
 info = {'name':'Karan', 'age':19, 'eligible':True}
 print(info.items())
+
+# Add/Remove Items
+# Add - Adding items to a dictionary
+info = {'name': 'Karan', 'age': 19, 'eligible': True}
+print(info)
+info['DOB'] = 2001
+print(info)
+
+# Use the update() method
+info = {'name': 'Karan', 'age': 19, 'eligible': True}
+print(info)
+info.update({'age': 20})
+info.update({'DOB': 2001})
+print(info)
