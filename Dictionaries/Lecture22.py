@@ -6,3 +6,20 @@ print(info)
 
 # Output
 # {'name': 'Karan', 'age': 19, 'eligible': True}
+
+# Access Items
+info = {'name':'Karan', 'age':19, 'eligible':True}
+print(info['name'])
+print(info.get('eligible'))
+
+# Accessing Multiple Values
+info = {'name':'Karan', 'age':19, 'eligible':True}
+print(info.values())
+
+# Accessing Keys
+info = {'name':'Karan', 'age':19, 'eligible':True}
+print(info.keys())
+
+# Accessing Key-Value Pairs
+info = {'name':'Karan', 'age':19, 'eligible':True}
+print(info.items())
